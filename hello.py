@@ -91,7 +91,10 @@
 # example of loop print 1 to 10
 # for i in range(1,11):
     # print(i)
-i=1
-while i<=10:
+# i=1
+# while i<=10:
+#     print(i)
+#     i+=1
+#example of even numbers from 2 to 20
+for i in range(2,21,2):
     print(i)
-    i+=1
