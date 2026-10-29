@@ -99,7 +99,11 @@
 # for i in range(2,21,2):
 #     print(i)
 #example of sum of numbers
-sum=0
-for i in range(1,11):
-    sum+=i
-print("sum:",sum)
+# sum=0
+# for i in range(1,11):
+#     sum+=i
+# print("sum:",sum)
+#example of mumltiplication table using for loop
+# num=int(input("enter a number"))
+# for i in range(1,11):
+    # print(num,"*",i,"=",num*i)
