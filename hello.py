@@ -77,14 +77,17 @@
 # print("remainder:",num1%num2)
 # print("power:",num1**num2)
 #example of conditional statements
-num=int(input("ennter your mark:"))
-if num>=90 and num<=100:
-    print("grade A")
-elif num>=80 and num<=89:
-    print("grade b")
-elif num>=70 and num<=79:
-    print("grade c")
-elif num>=50 and num<=69:
-    print("grade d")
-elif num<50:
-    print("failed")    
+# num=int(input("ennter your mark:"))
+# if num>=90 and num<=100:
+#     print("grade A")
+# elif num>=80 and num<=89:
+#     print("grade b")
+# elif num>=70 and num<=79:
+#     print("grade c")
+# elif num>=50 and num<=69:
+#     print("grade d")
+# elif num<50:
+#     print("failed")    
+# example of loop print 1 to 10
+for i in range(1,11):
+    print(i)
