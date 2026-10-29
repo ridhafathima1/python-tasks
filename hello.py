@@ -163,3 +163,7 @@
 # print(text)
 
 # example of count words in a string
+# text=input("enter a sentence:")
+# text=text.split()
+# print(len(text))
+
