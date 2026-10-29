@@ -14,7 +14,7 @@ student=Student("ridha",17)
 student.display()
  #example of abstraction
 from abc import ABC,abstractmethod
-class Vehicle:
+class Vehicle(ABC):
     @abstractmethod
     def start(self):
         pass
@@ -49,3 +49,31 @@ cat=Cat()
 dog=Dog()
 cat.sound()
 dog.sound()                
+#example of variables and datatypes
+name="ridha"
+age=17
+percentage=99.4
+passed=True
+print(type(name))
+print(type(age))
+print(type(percentage))
+print(type(passed))
+#example of type conversion
+num=input("enter a number:")
+print("original value:",num)
+print("original type:",type(num))
+convert=int(num)
+print("converted value:",convert)
+print("converted type:",type(convert))
+print("square:",convert*convert)
+#example of arithmetic operatos
+num1=int(input("enter first number"))
+num2=int(input("enter second number"))
+print("sum:",num1+num2)
+print("difference:",num1-num2)
+print("product:",num1*num2)
+print("division:",num1/num2)
+print("floor division:",num1//num2)
+print("remainder:",num1%num2)
+print("power:",num1**num2)
+#example of logical operators
