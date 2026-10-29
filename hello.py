@@ -12,6 +12,7 @@
 #         print("iam",self.age,"years old")
 # student=Student("ridha",17)
 # student.display()
+
 #  #example of abstraction
 # from abc import ABC,abstractmethod
 # class Vehicle(ABC):
@@ -28,6 +29,7 @@
 # car=Car()
 # bike.start()
 # car.start()                
+
 # #example of inheritance
 # class Animal:
 #     def eat(self):
@@ -38,6 +40,7 @@
 # dog=Dog()
 # dog.eat()
 # dog.bark()  
+
 # #example of polymorphism             
 # class Dog:
 #     def sound(self):
@@ -49,6 +52,7 @@
 # dog=Dog()
 # cat.sound()
 # dog.sound()                
+
 # #example of variables and datatypes
 # name="ridha"
 # age=17
@@ -58,6 +62,7 @@
 # print(type(age))
 # print(type(percentage))
 # print(type(passed))
+
 # #example of type conversion
 # num=input("enter a number:")
 # print("original value:",num)
@@ -66,6 +71,7 @@
 # print("converted value:",convert)
 # print("converted type:",type(convert))
 # print("square:",convert*convert)
+
 # #example of arithmetic operatos
 # num1=int(input("enter first number"))
 # num2=int(input("enter second number"))
@@ -76,6 +82,7 @@
 # print("floor division:",num1//num2)
 # print("remainder:",num1%num2)
 # print("power:",num1**num2)
+
 #example of conditional statements
 # num=int(input("ennter your mark:"))
 # if num>=90 and num<=100:
@@ -88,6 +95,7 @@
 #     print("grade d")
 # elif num<50:
 #     print("failed")    
+
 # example of loop print 1 to 10
 # for i in range(1,11):
     # print(i)
@@ -95,15 +103,22 @@
 # while i<=10:
 #     print(i)
 #     i+=1
+
 #example of even numbers from 2 to 20
 # for i in range(2,21,2):
 #     print(i)
+
 #example of sum of numbers
 # sum=0
 # for i in range(1,11):
 #     sum+=i
 # print("sum:",sum)
+
 #example of mumltiplication table using for loop
 # num=int(input("enter a number"))
 # for i in range(1,11):
     # print(num,"*",i,"=",num*i)
+
+#example of length
+# num=input("enter a number")
+# print(len(num.lstrip("-")))
