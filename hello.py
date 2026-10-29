@@ -12,5 +12,20 @@ class Student:
         print("iam",self.age,"years old")
 student=Student("ridha",17)
 student.display()
-
+ #example of abstraction
+from abc import ABC,abstractmethod
+class Vehicle:
+    @abstractmethod
+    def start(self):
+        pass
+class Bike(Vehicle):
+    def start(self):
+        print("the bike start using key")
+class Car(Vehicle):
+    def start(self):
+        print("the car start using button")
+bike=Bike()
+car=Car()
+bike.start()
+car.start()                
 
