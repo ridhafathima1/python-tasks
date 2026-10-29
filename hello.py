@@ -28,4 +28,13 @@ bike=Bike()
 car=Car()
 bike.start()
 car.start()                
-
+#example of inheritance
+class Animal:
+    def eat(self):
+        print("the animal is eating")
+class Dog(Animal):
+    def bark(self):
+        print("the dog is barking")
+dog=Dog()
+dog.eat()
+dog.bark()               
