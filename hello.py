@@ -122,3 +122,15 @@
 #example of length
 # num=input("enter a number")
 # print(len(num.lstrip("-")))
+
+#example of string reverse
+# text=input("enter a word:")
+# print(text[::-1])
+
+#example of string reverse using loop 
+# text=input("enter a word:")
+# reverse=""
+# for i in range(len(text)-1,-1,-1):
+#     reverse+=text[i]
+# print(reverse)   
+
