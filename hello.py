@@ -165,5 +165,15 @@
 # example of count words in a string
 # text=input("enter a sentence:")
 # text=text.split()
+
 # print(len(text))
 
+#example of find largest number in a list 
+# num=input("enter 5 numbers").split()
+# largest=int(num[0])
+# for i in num:
+#     if int(i)>largest:
+#         largest=int(i)
+# print("the largest number is:",largest) 
+
+       
