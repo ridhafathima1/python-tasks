@@ -37,4 +37,15 @@ class Dog(Animal):
         print("the dog is barking")
 dog=Dog()
 dog.eat()
-dog.bark()               
+dog.bark()  
+#example of polymorphism             
+class Dog:
+    def sound(self):
+        print("the dog is barking")
+class Cat:
+    def sound(self):
+        print("the cat is meowing")
+cat=Cat()
+dog=Dog()
+cat.sound()
+dog.sound()                
