@@ -1,3 +1,6 @@
-print("hello,python!")
-name=input("enter your name:")
-print("welcome",name)
+#print("hello,python!")
+#name=input("enter your name:")
+#print("welcome",name)
+
+
+
