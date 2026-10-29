@@ -156,3 +156,10 @@
 #     if i not in "aeiou":
 #         count+=1
 # print(count)        
+
+#example of remove spaces 
+# text=input("enter a sentence:")
+# text=text.replace(" ","")
+# print(text)
+
+# example of count words in a string
