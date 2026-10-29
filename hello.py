@@ -96,5 +96,10 @@
 #     print(i)
 #     i+=1
 #example of even numbers from 2 to 20
-for i in range(2,21,2):
-    print(i)
+# for i in range(2,21,2):
+#     print(i)
+#example of sum of numbers
+sum=0
+for i in range(1,11):
+    sum+=i
+print("sum:",sum)
