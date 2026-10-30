@@ -232,11 +232,35 @@
 # print("square:",result)
 
 # example of monkey patching
-class Student:
-    def display(self):
-        print("the student is hardworking")
-    def new(self):
-        print("the student is smart")
-Student.display=Student.new
-student=Student()
-student.display()            
+# class Student:
+#     def display(self):
+#         print("the student is hardworking")
+#     def new(self):
+#         print("the student is smart")
+# Student.display=Student.new
+# student=Student()
+# student.display()            
+
+#example of type of functions
+#function without an argument and without a return value
+# def greet():
+#     print("my name is ridha fathima ")
+# greet()    
+
+# function with argument and withour return value
+# def add(a,b):
+#     print(a+b)
+# add(300,80)    
+
+#function without arguments and with a return value
+# def num():
+#     return 100
+# result=num()
+# print(result)
+
+
+# function with arguments and a return value
+# def sum(a,b):
+#     return a+b
+# print(sum(2,3))
+
