@@ -372,4 +372,9 @@
 # result=reduce(lambda a,b:a+b,numbers)
 # print(result)
 
+# example of zip normal and lambda
+# numbers=[1,2,3,4]
+# names=["ridha","raniya","rayan"]
+# result=list(zip(numbers,names))
+# print(result)
 
