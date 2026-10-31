@@ -333,3 +333,17 @@
 #     return inner
 # greet=outer()
 # greet()
+
+# examples of functional programming tools
+# example of map method
+# numbers=[1,2,3,4,5,6]
+# def square(n):
+#     return n*n
+# result=list(map(square,numbers))
+# print(result)
+
+
+#example of square of number using lambda
+# numbers=[1,2,3,4,5,6]
+# result=list(map(lambda n:n*n,numbers))
+# print(result)
