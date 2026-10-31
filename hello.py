@@ -264,3 +264,63 @@
 #     return a+b
 # print(sum(2,3))
 
+# examples of magic methods
+# example of magic method __init__
+# class School:
+#     def __init__(self,name,year):
+#         self.name=name
+#         self.year=year
+# s1=School("fhss",1942)
+# print(s1.name)
+# print(s1.year)      
+
+#example of magicmethod __str__
+# class School:
+#     def __init__(self,name):
+#         self.name=name
+#     def __str__(self):
+#         return f"school name: {self.name}"
+# s1=School("fhss")
+# print(s1)
+
+#example of magic method len()
+# class Team:
+#     def __init__(self,members):
+#         self.members=members
+#     def __len__(self):
+#         return len(self.members)
+# t1=Team(["ridha","raniya","rayan"])
+# print(len(t1))
+
+ # example of magic method __add__
+# class Score:
+#     def __init__(self,marks):
+#         self.marks=marks
+#     def __add__(self,other):
+#         return self.marks+other.marks
+# s1=Score(50)
+# s2=Score(50)
+# print(s1+s2)
+
+
+# example of magic method __eq__       
+# class Student:
+#     def __init__(self,name):
+#         self.name=name
+#     def __eq__(self,others):
+#         return self.name==others.name
+# n1=Student("ridha")      
+# n2=Student("ridha") 
+# n3=Student("rayan")   
+# print(n1==n2)
+# print(n1==n3)
+
+# def uppercase(func):
+#     def wrapper():
+#         result=func()
+#         return result.upper()
+#     return wrapper
+# @uppercase
+# def greet():
+#     return "my name is ridha fathima"
+# print(greet())
