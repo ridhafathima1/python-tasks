@@ -359,3 +359,17 @@
 # result=list(filter(lambda n:n>2,numbers))
 # print(result)
 
+# example of reduce normal and lambda 
+# from functools import reduce
+# numbers=[1,2,3,4,5,6]
+# def add(a,b):
+#     return a+b
+# result=reduce(add,numbers)
+# print(result)
+
+# from functools import reduce
+# numbers=[1,2,3,7,8,9]
+# result=reduce(lambda a,b:a+b,numbers)
+# print(result)
+
+
