@@ -324,3 +324,12 @@
 # def greet():
 #     return "my name is ridha fathima"
 # print(greet())
+
+# # example of closure
+# def outer():
+#     message="my name is ridha fathima"
+#     def inner():
+#         print(message)
+#     return inner
+# greet=outer()
+# greet()
