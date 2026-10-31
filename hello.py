@@ -347,3 +347,15 @@
 # numbers=[1,2,3,4,5,6]
 # result=list(map(lambda n:n*n,numbers))
 # print(result)
+
+#example of filter normal and lambda
+# numbers=[1,2,3,4,5,6]
+# def even(n):
+#     return n>2
+# result=list(filter(even,numbers))
+# print(result)
+
+# numbers=[1,4,6,8,9]
+# result=list(filter(lambda n:n>2,numbers))
+# print(result)
+
