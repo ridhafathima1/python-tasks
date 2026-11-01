@@ -432,6 +432,11 @@
 # print(next(message))
 # print(next(message))
 
+#example of list 
+num=[1,2,3,4]
+num.extend([5,6])
+print(num)
+
 
                                              
     
