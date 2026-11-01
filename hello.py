@@ -448,8 +448,11 @@
 # print(num)
 
 #example of list slice\
-num=[1,2,3,4,5,6,7,8]
-print(num[1:3])
-                                 
-    
+# num=[1,2,3,4,5,6,7,8]
+# print(num[1:3])
+ 
+# file=open("ridha","w")
+# file.write("hello python")
+# file.close
+# print("file written successfully")
 
