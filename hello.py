@@ -432,16 +432,20 @@
 # print(next(message))
 # print(next(message))
 
-#example of list 
+#example of list extend
 # num=[1,2,3,4]
 # num.extend([5,6])
 # print(num)
 
 #example of of listt insert
-num=[1,2,3,4]
-num.insert(1,20)
-print(num)
+# num=[1,2,3,4]
+# num.insert(1,20)
+# print(num)
 
+#example of list  pop
+num=[1,2,3]
+num.pop()
+print(num)
                                              
     
 
