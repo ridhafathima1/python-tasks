@@ -443,9 +443,13 @@
 # print(num)
 
 #example of list  pop
-num=[1,2,3]
-num.pop()
-print(num)
-                                             
+# num=[1,2,3]
+# num.pop()
+# print(num)
+
+#example of list slice\
+num=[1,2,3,4,5,6,7,8]
+print(num[1:3])
+                                 
     
 
