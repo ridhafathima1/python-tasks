@@ -377,4 +377,62 @@
 # names=["ridha","raniya","rayan"]
 # result=list(zip(numbers,names))
 # print(result)
+#example of filehandling
+#example of read
+# file=open("sample","r")
+# content=file.read()
+# print(content)
+# file.close()
+
+#example of write
+# file=open("sample","w")
+# file.write("hiii ridhaaaaa welcome to python")
+# file.close()
+
+#example of append
+# file=open("sample","a")
+# file.write("\nhey iam enjoying learning python ")
+# file.close()
+
+#example of with open
+# with open("sample","r") as file:
+#     content=file.read()
+#     print(content)
+
+#example of creating a file
+# file=open("ridha","x")
+# file.write("my name is ridha fathima")
+# file.close()
+
+# example of next and and iter
+# numbers=[1,2,3,4]
+# iterator=iter(numbers)
+# print(next(iterator))
+# print(next(iterator))
+# print(next(iterator))
+# print(next(iterator))
+
+# example of __next__ and __iter__
+# numbers=[1,2,3,4,5]
+# iterator=numbers.__iter__()
+# print(iterator.__next__())
+# print(iterator.__next__())
+# print(iterator.__next__())
+# print(iterator.__next__())
+# print(iterator.__next__())
+
+#example of generator using yield keyword
+# def greet():
+#     yield "hello"
+#     yield "my name is"
+#     yield "ridha"
+# message=greet()
+# print(next(message))
+# print(next(message))
+# print(next(message))
+# print(next(message))
+
+
+                                             
+    
 
