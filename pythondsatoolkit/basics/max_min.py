@@ -31,3 +31,19 @@
 # # Using insert()
 # numbers.insert(0, 5)
 # print("After insert:", numbers)
+
+
+ #time complexity of find max function
+# def find_max(numbers):
+#     maximum = numbers[0]
+
+#     for i in numbers:
+#         if i > maximum:
+#             maximum = i
+
+#     return maximum
+
+
+# numbers = [10, 5, 30, 2, 50]
+
+# print("Maximum:", find_max(numbers))
