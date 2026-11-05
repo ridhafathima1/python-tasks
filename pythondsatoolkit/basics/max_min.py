@@ -1,3 +1,4 @@
+#get maximum and minimum number from an array
 # def find_max_min(numbers):
 #     maximum = numbers[0]
 #     minimum = numbers[0]
@@ -18,3 +19,15 @@
 
 # print("Maximum:", maximum)
 # print("Minimum:", minimum)
+
+#compare list.append vs list.insert(0,x)
+
+# numbers = [10, 20, 30, 40, 50]
+
+# # Using append()
+# numbers.append(60)
+# print("After append:", numbers)
+
+# # Using insert()
+# numbers.insert(0, 5)
+# print("After insert:", numbers)
