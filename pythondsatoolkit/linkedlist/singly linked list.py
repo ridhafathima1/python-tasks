@@ -56,3 +56,24 @@
 #     print(current.data)
 #     current=current.next
 
+#singly linkedlist insertion at the beginning
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# node1=Node(10)
+# node2=Node(20)
+# node3=Node(30)
+# node1.next=node2
+# node2.next=node3
+# head=node1
+# values=[10,20,30,40,50]
+# for value in reversed(values):
+#     newnode=Node(value)
+#     newnode.next=head
+#     head=newnode
+# current=head
+# while current:
+#     print(current.data)
+#     current=current.next 
+     
