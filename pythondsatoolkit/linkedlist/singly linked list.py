@@ -214,3 +214,25 @@
 # else:
 #     print("element not found")        
 
+#insert at the beginning
+class Node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+class Linkedlist:
+    def __init__(self):
+        self.head=None
+    def insert_beginning(self,data):
+        newnode=Node(data)
+        newnode.next=self.head
+        self.head=newnode
+    def display(self):
+        current=self.head
+        while current is not None:
+            print(current.data)
+            current=current.next
+l1=Linkedlist()
+l1.insert_beginning(30)
+l1.insert_beginning(20)
+l1.insert_beginning(10)
+l1.display()      
