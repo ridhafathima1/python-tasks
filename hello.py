@@ -2,7 +2,7 @@
 #name=input("enter your na  me:")
 #pri    nt("welcome",name)
 
-#example of encanpsu    lation
+#example of encanpsulation
 # class Student:    
 #     def __init__(self,name    ,age,):
 #         self.name=name    
@@ -30,7 +30,7 @@
 # bike.start()  
 # ca    r.start()                
 
-# #example of in    heritance
+# #example of inheritance
 # class Animal: 
 #     def eat(self):    
 #         print("the ani    mal is eating")
@@ -41,7 +41,7 @@
 # dog.eat() 
 # do    g.bark()  
 
-# #example of po    lymorphism             
+# #example of polymorphism             
 # class Dog:    
 #     def sound(self):  
 #         print(    "the dog is barking")
@@ -54,7 +54,7 @@
 # do    g.sound()                
 
 # #example of vari  ables and datatypes
-# name="ridh    a"
+# name="ridha"
 # age=17    
 # percentage=99.    4
 # passed=True   
