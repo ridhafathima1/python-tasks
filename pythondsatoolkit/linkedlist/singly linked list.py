@@ -330,6 +330,7 @@
 # l.deletebeginning()
 # l.display()                                         
 
+#delete the end elemen t in singgly linked list
 # class Node:
 #     def __init__(self,data):
 #         self.data=data
@@ -362,3 +363,36 @@
 # l.deleteend()
 # l.display()                                    
  
+#delete specific position from singly linkedlist
+class Node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+class Linkedlist:
+    def __init__(self):
+        self.head=None
+    def deletespecific(self,position):
+        if self.head is None:
+            return 
+        if position == 0:
+            self.head=self.head.next
+        else:
+            current=self.head
+            for i in range(position-1):
+                current=current.next
+            current.next=current.next.next
+    def display(self):
+        current=self.head
+        while current:
+            print(current.data)
+            current=current.next
+l=Linkedlist()
+n1=Node(10)
+n2=Node(20)
+n3=Node(30)
+l.head=n1
+n1.next=n2
+n2.next=n3
+l.deletespecific(1)
+l.display()             
+
