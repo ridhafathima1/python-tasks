@@ -443,65 +443,74 @@
 # l.display()   
 
 #complete delete operatios in singly linkedlist
-class Node:
-    def __init__(self,data):
-        self.data=data
-        self.next=None
-class Linkedlist:
-    def __init__(self):
-        self.head=None
-    def insert_end(self,data):
-        newnode=Node(data)
-        if self.head is None:
-            self.head=newnode
-        else:
-            current=self.head
-            while current.next:
-                current=current.next
-            current.next=newnode    
-    def deletebegin(self):
-        if self.head is None:
-            print("the list is empty")
-        else:
-            self.head=self.head.next
-    def deleteend(self):
-        if self.head is None:
-            return 
-        if self.head.next is None:
-            self.head=None
-        else:
-            current=self.head
-            while current.next.next:
-                current=current.next
-            current.next=None
-    def deletespecfic(self,pos):
-        if self.head is None:
-            return 
-        if pos==0:
-            self.head=self.head.next
-        else:
-            current=self.head
-            for i in range(pos-1):
-                current=current.next
-            current.next=current.next.next
-    def display(self):
-        current=self.head 
-        while current:
-            print(current.data)
-            current=current.next       
-l=Linkedlist()
-n1=Node(10)
-n2=Node(20)
-n3=Node(30)
-n4=Node(40)
-n5=Node(50)
-l.head=n1
-n1.next=n2
-n2.next=n3
-n3.next=n4
-n4.next=n5
-l.deletebegin()
-l.deleteend()
-l.deletespecfic(1)
-l.display()                             
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insert_end(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             current.next=newnode    
+#     def deletebegin(self):
+#         if self.head is None:
+#             print("the list is empty")
+#         else:
+#             self.head=self.head.next
+#     def deleteend(self):
+#         if self.head is None:
+#             return 
+#         if self.head.next is None:
+#             self.head=None
+#         else:
+#             current=self.head
+#             while current.next.next:
+#                 current=current.next
+#             current.next=None
+#     def deletespecfic(self,pos):
+#         if self.head is None:
+#             return 
+#         if pos==0:
+#             self.head=self.head.next
+#         else:
+#             current=self.head
+#             for i in range(pos-1):
+#                 current=current.next
+#             current.next=current.next.next
+#     def display(self):
+#         current=self.head 
+#         while current:
+#             print(current.data)
+#             current=current.next       
+# l=Linkedlist()
+# n1=Node(10)
+# n2=Node(20)
+# n3=Node(30)
+# n4=Node(40)
+# n5=Node(50)
+# l.head=n1
+# n1.next=n2
+# n2.next=n3
+# n3.next=n4
+# n4.next=n5
+# l.deletebegin()
+# l.deleteend()
+# l.deletespecfic(1)
+# l.display()     
+
+#example of bubble sort
+numbers=[1,10,7,5,3,0]
+n=len(numbers)
+for i in range(n):
+    for j in range(n-i-1):
+        if numbers[j]>numbers[j+1]:
+            numbers[j],numbers[j+1]=numbers[j+1],numbers[j]
+print(numbers)                 
 
