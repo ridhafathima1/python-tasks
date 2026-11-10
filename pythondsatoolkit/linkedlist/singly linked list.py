@@ -215,6 +215,57 @@
 #     print("element not found")        
 
 #insert at the beginning
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insert_beginning(self,data):
+#         newnode=Node(data)
+#         newnode.next=self.head
+#         self.head=newnode
+#     def display(self):
+#         current=self.head
+#         while current is not None:
+#             print(current.data)
+#             current=current.next
+# l1=Linkedlist()
+# l1.insert_beginning(30)
+# l1.insert_beginning(20)
+# l1.insert_beginning(10)
+# l1.display()      
+
+#insert at the ending
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insert_end(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             current.next=newnode
+#     def display(self):
+#         current=self.head
+#         print(current.data) 
+#         current=current.next
+# l=Linkedlist()
+# l.insert_end(10)
+# l.insert_end(20)
+# l.insert_end(30)
+# l.display()                           
+
+
+#insert at a particular position
 class Node:
     def __init__(self,data):
         self.data=data
@@ -222,17 +273,26 @@ class Node:
 class Linkedlist:
     def __init__(self):
         self.head=None
-    def insert_beginning(self,data):
+    def insert_position(self,data,position):
         newnode=Node(data)
-        newnode.next=self.head
-        self.head=newnode
+        if position == 0:
+            newnode.next=self.head
+            self.head=newnode
+            return
+        current=self.head
+        for i in range(position-1):
+            current=current.next
+        newnode.next=current.next
+        current.next=newnode
     def display(self):
         current=self.head
-        while current is not None:
+        while current:
             print(current.data)
             current=current.next
-l1=Linkedlist()
-l1.insert_beginning(30)
-l1.insert_beginning(20)
-l1.insert_beginning(10)
-l1.display()      
+l=Linkedlist()
+l.insert_position(10,0)
+l.insert_position(20,1)
+l.insert_position(30,2)
+l.insert_position(30,1)  
+l.display()          
+                 
