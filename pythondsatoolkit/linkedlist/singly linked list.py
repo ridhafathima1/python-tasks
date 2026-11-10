@@ -329,3 +329,36 @@
 # l.insert_end(30)
 # l.deletebeginning()
 # l.display()                                         
+
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def deleteend(self):
+#         if self.head is None:
+#             return 
+#         if self.head.next is None:
+#             self.head=None
+#         else:
+#             current=self.head
+#             while current.next.next:
+#                 current=current.next
+#             current.next=None
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next
+# l=Linkedlist()
+# n1=Node(10)
+# n2=Node(20)
+# n3=Node(30)
+# l.head=n1
+# n1.next=n2
+# n2.next=n3
+# l.deleteend()
+# l.display()                                    
+ 
