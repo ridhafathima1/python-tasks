@@ -265,34 +265,67 @@
 # l.display()                           
 
 
-#insert at a particular position
-class Node:
-    def __init__(self,data):
-        self.data=data
-        self.next=None
-class Linkedlist:
-    def __init__(self):
-        self.head=None
-    def insert_position(self,data,position):
-        newnode=Node(data)
-        if position == 0:
-            newnode.next=self.head
-            self.head=newnode
-            return
-        current=self.head
-        for i in range(position-1):
-            current=current.next
-        newnode.next=current.next
-        current.next=newnode
-    def display(self):
-        current=self.head
-        while current:
-            print(current.data)
-            current=current.next
-l=Linkedlist()
-l.insert_position(10,0)
-l.insert_position(20,1)
-l.insert_position(30,2)
-l.insert_position(30,1)  
-l.display()          
+# #insert at a particular position
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insert_position(self,data,position):
+#         newnode=Node(data)
+#         if position == 0:
+#             newnode.next=self.head
+#             self.head=newnode
+#             return
+#         current=self.head
+#         for i in range(position-1):
+#             current=current.next
+#         newnode.next=current.next
+#         current.next=newnode
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next
+# l=Linkedlist()
+# l.insert_position(10,0)
+# l.insert_position(20,1)
+# l.insert_position(30,2)
+# l.insert_position(30,1)  
+# l.display()          
                  
+#delete from frromt the beginning singly linked list
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insert_end(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             current.next=newnode
+#     def deletebeginning(self):
+#         if self.head is None:
+#             print("the list is empty")
+#         else:
+#             self.head=self.head.next
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next
+# l=Linkedlist()
+# l.insert_end(10)
+# l.insert_end(20)
+# l.insert_end(30)
+# l.deletebeginning()
+# l.display()                                         
