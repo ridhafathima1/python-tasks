@@ -506,11 +506,38 @@
 # l.display()     
 
 #example of bubble sort
-numbers=[1,10,7,5,3,0]
-n=len(numbers)
-for i in range(n):
-    for j in range(n-i-1):
-        if numbers[j]>numbers[j+1]:
-            numbers[j],numbers[j+1]=numbers[j+1],numbers[j]
-print(numbers)                 
+# numbers=[1,10,7,5,3,0]
+# n=len(numbers)
+# for i in range(n):
+#     for j in range(n-i-1):
+#         if numbers[j]>numbers[j+1]:
+#             numbers[j],numbers[j+1]=numbers[j+1],numbers[j]
+# print(numbers)                 
 
+#example of insert at the beginning doubly linked list
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.prev=None
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insertbegin(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             newnode.next=self.head
+#             self.head.prev=newnode
+#             self.head=newnode
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next
+# l=Linkedlist()
+# l.insertbegin(30)
+# l.insertbegin(20)
+# l.insertbegin(10)
+# l.display()                                 
