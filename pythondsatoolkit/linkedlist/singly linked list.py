@@ -541,3 +541,79 @@
 # l.insertbegin(20)
 # l.insertbegin(10)
 # l.display()                                 
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insertbegin(self,data):
+#         newnode=Node(data)
+#         newnode.next=self.head
+#         self.head=newnode
+#     def insertend(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             current.next=newnode
+#     def insertspec(self,data,pos):
+#         newnode=Node(data)
+#         if pos == 0:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             for i in range(pos-1):
+#                 current=current.next
+#             newnode.next=current.next
+#             current.next=newnode
+#     def deletebegin(self):
+#         if self.head is None:
+#             print("the list is empty")
+#         else:
+#             self.head=self.head.next 
+#     def deleteend(self):
+#         if self.head is None:
+#             return 
+#         if self.head.next is None:
+#             self.head=None
+#         else:
+#             current=self.head
+#             while current.next.next:
+#                 current=current.next
+#             current.next=None
+#     def deletespec(self,pos):
+#         if self.head is None:
+#             return
+#         if pos==0:
+#             self.head=self.head.next
+#         else:
+#             current=self.head
+#             for i in range(pos-1):
+#                 current=current.next
+              
+#             current.next=current.next.next   
+
+                   
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next   
+
+# l=Linkedlist()
+# l.insertbegin(30)
+# l.insertbegin(20)
+# l.insertbegin(10)
+# l.insertend(40)
+# l.insertend(50)
+# l.insertend(60)
+# l.insertspec(80,3)
+# l.deletebegin()
+# l.deleteend()
+# l.deletespec(3)
+# l.display()                 
