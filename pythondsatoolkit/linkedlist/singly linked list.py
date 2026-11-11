@@ -688,3 +688,54 @@
 # l.insertend(50)
 # l.insertend(60)                
 # l.display()
+
+#insert at the beginning ending and specific position in doubly linkedlist
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+#         self.prev=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insertbegin(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             newnode.next=self.head
+#             self.head.prev=newnode
+#             self.head=newnode
+#     def insertend(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             current.next=newnode
+#             newnode.prev=current
+#     def insertspec(self,data,pos):
+#         newnode=Node(data)
+#         current=self.head
+#         for i in range(pos-1):
+#             current=current.next
+#         newnode.next=current.next
+#         newnode.prev=current
+#         current.next.prev=newnode
+#         current.next=newnode                         
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next    
+# l=Linkedlist()
+# l.insertbegin(30)
+# l.insertbegin(20)
+# l.insertbegin(10)
+# l.insertend(40)
+# l.insertend(50)
+# l.insertend(60)
+# l.insertspec(80,3)
+# l.display()
