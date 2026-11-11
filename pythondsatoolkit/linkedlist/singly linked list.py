@@ -741,30 +741,52 @@
 # l.display()
 
 #example of delete begin in doubly linkedlist
-class Node:
-    def __init__(self,data):
-        self.data=data
-        self.next=None
-        self.prev=None
-class Linkedlist:
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+#         self.prev=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def deletebegin(self):
+#         self.head=self.head.next
+#         self.head.prev=None
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next
+# l=Linkedlist()
+# n1=Node(10)
+# n2=Node(20)
+# n3=Node(30)
+# n4=Node(40)
+# l.head=n1
+# n1.next=n2
+# n2.next=n3
+# n3.next=n4
+# l.deletebegin()
+# l.display()
+
+#example of stack operations
+class Stack:
     def __init__(self):
-        self.head=None
-    def deletebegin(self):
-        self.head=self.head.next
-        self.head.prev=None
+        self.stack=[]
+    def push(self,data):
+        self.stack.append(data)
+    def pop(self):
+        if not self.stack:
+            print("the stack is empty")
+        else:
+            self.stack.pop()
     def display(self):
-        current=self.head
-        while current:
-            print(current.data)
-            current=current.next
-l=Linkedlist()
-n1=Node(10)
-n2=Node(20)
-n3=Node(30)
-n4=Node(40)
-l.head=n1
-n1.next=n2
-n2.next=n3
-n3.next=n4
-l.deletebegin()
-l.display()
+        print(self.stack)          
+s=Stack()
+s.push(10)
+s.push(20)                 
+s.push(30)
+s.push(40)
+s.push(50)
+s.pop()
+s.display()
