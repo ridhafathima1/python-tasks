@@ -829,3 +829,228 @@
 #         break
 # else:
 #     print("the element is not found")    
+
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insertf(self,data):
+#         newnode=Node(data)
+#         newnode.next=self.head
+#         self.head=newnode
+#     def insertl(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             current.next=newnode
+#     def inserts(self,data,pos):
+#         newnode=Node(data)
+#         if pos == 0:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             for i in range(pos-1):
+#                 current=current.next
+#             newnode.next=current.next
+#             current.next=newnode
+#     def deletebegin(self):
+#         if self.head is None:
+#             print("the list is empty")
+#         else:
+#             self.head=self.head.next
+#     def deleteend(self):
+#         if self.head is None:
+#             return 
+#         if self.head.next is None:
+#             self.head=None
+#         else:
+#             current=self.head
+#             while current.next.next:
+#                 current=current.next
+#             current.next=None
+#     def deletespec(self,pos):
+#         if self.head is None:
+#             return
+#         if pos == 0:
+#             self.head=self.head.next
+#         else:
+#             current=self.head
+#             for i in range(pos-1):
+#                 current=current.next
+#             current.next=current.next.next
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next        
+# l=Linkedlist()
+# l.insertf(10)
+# l.insertf(20)
+# l.insertf(30)
+# l.insertl(40)
+# l.insertl(50)
+# l.insertl(60)
+# l.inserts(100,2)
+# l.deletebegin()
+# l.deleteend()
+# l.deletespec(2)
+# l.display()
+
+#example of insert beginning ending specific and delete beginning ending and specific in singly linkedlist
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+#         self.prev=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insertbeginning(self,data):
+#         newnode=Node(data)
+#         newnode.next=self.head
+#         self.head=newnode
+#     def insertending(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             current.next=newnode 
+#     def insertspecificposition(self,data,pos):
+#         newnode=Node(data)
+#         if pos==0:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             for i in range(pos-1):
+#                 current=current.next
+#             newnode.next=current.next
+#             current.next=newnode 
+#     def deletebeginning(self):
+#         self.head=self.head.next           
+#     def deleteending(self):
+#         if self.head is None:
+#             return 
+#         if self.head.next is None:
+#             self.head=None
+#         else:
+#             current=self.head
+#             while current.next.next:
+#                 current=current.next
+#             current.next=None
+#     def deletespecificposition(self,pos):
+#         if self.head is None:
+#             return 
+#         if  pos==0:
+#             self.head=self.head.next
+#         else:
+#             current=self.head
+#             for i in range(pos-1):
+#                 current=current.next
+#             current.next=current.next.next    
+
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next
+# l=Linkedlist()
+# l.insertbeginning(30)
+# l.insertbeginning(20)
+# l.insertbeginning(10)
+# l.insertending(40)
+# l.insertending(50)
+# l.insertending(60)
+# l.insertspecificposition(45,4)
+# l.deletebeginning()
+# l.deleteending()
+# l.deletespecificposition(2)
+# l.display()
+
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+#         self.prev=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insertbeginning(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             newnode.next=self.head
+#             self.head.prev=newnode
+#             self.head=newnode
+#     def insertending(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             newnode.prev=current
+#             current.next=newnode
+#     def insertspec(self,data,pos):
+#         newnode=Node(data)
+#         if pos ==0:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             for i in range(pos-1):
+#                 current=current.next
+#             newnode.prev=current
+#             newnode.next=current.next
+#             current.next.prev=newnode
+#             current.next=newnode    
+#     def deletebeginning(self):
+#         self.head=self.head.next
+#         self.head.prev=None
+#     def deleteending(self):
+#         if self.head is None:
+#             return 
+#         if self.head.next is None:
+#             self.head=None
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             current.prev.next=None                
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next
+# l=Linkedlist()
+# l.insertbeginning(10)
+# l.insertbeginning(20)
+# l.insertbeginning(30)
+# l.insertending(40)
+# l.insertending(50)
+# l.insertending(60)
+# l.insertspec(100,3)
+# l.deletebeginning()
+# l.deleteending()
+# l.display()                                     
+
+            
+
+#example of factorial using recursion
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+    return n*factorial(n-1)
+print(factorial(5))
+
+
