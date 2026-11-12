@@ -770,23 +770,34 @@
 # l.display()
 
 #example of stack operations
-class Stack:
-    def __init__(self):
-        self.stack=[]
-    def push(self,data):
-        self.stack.append(data)
-    def pop(self):
-        if not self.stack:
-            print("the stack is empty")
-        else:
-            self.stack.pop()
-    def display(self):
-        print(self.stack)          
-s=Stack()
-s.push(10)
-s.push(20)                 
-s.push(30)
-s.push(40)
-s.push(50)
-s.pop()
-s.display()
+# class Stack:
+#     def __init__(self):
+#         self.stack=[]
+#     def push(self,data):
+#         self.stack.append(data)
+#     def pop(self):
+#         if not self.stack:
+#             print("the stack is empty")
+#         else:
+#             self.stack.pop()
+#     def display(self):
+#         print(self.stack)          
+# s=Stack()
+# s.push(10)
+# s.push(20)                 
+# s.push(30)
+# s.push(40)
+# s.push(50)
+# s.pop()
+# s.display()
+
+
+#example of manually insert a list
+# num=[10,20,30,40,50]
+# position=3
+# value=35
+# num.append(0)
+# for i in range(len(num)-1,position,-1):
+#     num[i]=num[i-1]
+# num[position]=value
+# print(num)         
