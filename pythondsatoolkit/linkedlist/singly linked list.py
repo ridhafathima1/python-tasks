@@ -803,9 +803,21 @@
 # print(num)         
 
 #example of deletin a particular item from a list manually
-num=[10,20,30,40,50]
-position=3
-for i in range(position,len(num)-1):
-    num[i]=num[i+1]
-num.pop()
-print(num)    
+# num=[10,20,30,40,50]
+# position=3
+# for i in range(position,len(num)-1):
+#     num[i]=num[i+1]
+# num.pop()
+# print(num)    
+
+#example of reversing a list manually
+# num=[10,20,30]
+# start=0
+# end=len(num)-1
+# while start<end:
+#     num[start],num[end]=num[end],num[start]
+#     start+=1
+#     end-=1
+# print(num)    
+
+examp
