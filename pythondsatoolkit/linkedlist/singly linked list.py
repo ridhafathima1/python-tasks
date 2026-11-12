@@ -1062,9 +1062,25 @@
 #     print(fibonnacci(i),end=" ")
 
 #example of reversing using recursion method
-def reverse(s):
-    if len(s)==0:
-        return s
-    return reverse(s[1:])+s[0]
-print(reverse("my name is ridha fathima"))
+# def reverse(s):
+#     if len(s)==0:
+#         return s
+#     return reverse(s[1:])+s[0]
+# print(reverse("my name is ridha fathima"))
 
+#example of binary search
+# num=[10,20,30,40,50,60,70,80,90]
+# target=10
+# low=0
+# high=len(num)-1
+# while low<=high:
+#     mid=(low+high)//2
+#     if num[mid]==target:
+#         print("the element if found at index:",mid)
+#         break
+#     elif num[mid]<target:
+#         low=mid+1
+#     else:
+#         high=mid-1
+# else:
+#     print("the element is not found")        
