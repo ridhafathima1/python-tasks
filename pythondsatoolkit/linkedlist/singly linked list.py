@@ -1047,10 +1047,18 @@
             
 
 #example of factorial using recursion
-def factorial(n):
-    if n==0 or n==1:
-        return 1
-    return n*factorial(n-1)
-print(factorial(5))
+# def factorial(n):
+#     if n==0 or n==1:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(5))
+
+#example of fibonnaci using recursion
+# def fibonnacci(n):
+#     if n<=1:
+#         return n
+#     return fibonnacci(n-1)+fibonnacci(n-2)
+# for i in range(7):
+#     print(fibonnacci(i),end=" ")
 
 
