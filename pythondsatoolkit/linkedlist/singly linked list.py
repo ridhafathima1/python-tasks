@@ -820,4 +820,12 @@
 #     end-=1
 # print(num)    
 
-examp
+#example of searching an element manually
+# num=[10,20,30,40,50,40]
+# target=90
+# for i in range(len(num)):
+#     if num[i]==target:
+#         print("the element is found at:",i)
+#         break
+# else:
+#     print("the element is not found")    
