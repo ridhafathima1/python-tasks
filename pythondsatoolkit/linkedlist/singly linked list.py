@@ -801,3 +801,11 @@
 #     num[i]=num[i-1]
 # num[position]=value
 # print(num)         
+
+#example of deletin a particular item from a list manually
+num=[10,20,30,40,50]
+position=3
+for i in range(position,len(num)-1):
+    num[i]=num[i+1]
+num.pop()
+print(num)    
