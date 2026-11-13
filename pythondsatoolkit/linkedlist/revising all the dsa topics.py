@@ -36,3 +36,12 @@
 #         break
 # else:
 #     print("the element is not found")
+
+#example of deepcopy
+# import copy
+# num=[[10,20],[30,40]]
+# deep=copy.deepcopy(num)
+# deep[0][0]=100
+# print(deep)
+# print(num)
+
