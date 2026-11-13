@@ -54,72 +54,100 @@
 # print(num)
 
 #singly linked list insertion at the beginning
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insertbeginning(self,data):
+#         newnode=Node(data)
+#         newnode.next=self.head
+#         self.head=newnode
+#     def insertend(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             current.next=newnode 
+#     def insert_position(self,data,position):
+#         newnode=Node(data)
+#         if position==0:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             for i in range(position-1):
+#                 current=current.next
+#             newnode.next=current.next
+#             current.next=newnode  
+#     def delete_first(self):
+#         self.head=self.head.next  
+#     def delete_end(self):
+#         if self.head is None:
+#             return 
+#         if self.head.next is None:
+#             self.head=None
+#         else:
+#             current=self.head
+#             while current.next.next:
+#                 current=current.next
+#             current.next=None
+#     def dlete_position(self,position):
+#         if position==0:
+#             self.head=self.head.next
+#         else:
+#             current=self.head
+#             for i in range(position-1):
+#                 current=current.next
+#             current.next=current.next.next                                              
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next
+# l=Linkedlist()
+# l.insertbeginning(10)                            
+# l.insertbeginning(20)                            
+# l.insertbeginning(30)                            
+# l.insertbeginning(40)
+# l.insertend(50)
+# l.insertend(60)
+# l.insertend(70)
+# l.insertend(80)
+# l.insert_position(100,3)
+# l.delete_first()
+# l.delete_end()
+# l.dlete_position(1)
+# l.display()                           
+
 class Node:
     def __init__(self,data):
         self.data=data
         self.next=None
+        self.prev=None
 class Linkedlist:
     def __init__(self):
         self.head=None
-    def insertbeginning(self,data):
-        newnode=Node(data)
-        newnode.next=self.head
-        self.head=newnode
-    def insertend(self,data):
+    def insert_first(self,data):
         newnode=Node(data)
         if self.head is None:
             self.head=newnode
         else:
-            current=self.head
-            while current.next:
-                current=current.next
-            current.next=newnode 
-    def insert_position(self,data,position):
-        newnode=Node(data)
-        if position==0:
+            newnode.next=self.head
+            self.head.prev=newnode
             self.head=newnode
-        else:
-            current=self.head
-            for i in range(position-1):
-                current=current.next
-            newnode.next=current.next
-            current.next=newnode  
-    def delete_first(self):
-        self.head=self.head.next  
-    def delete_end(self):
-        if self.head is None:
-            return 
-        if self.head.next is None:
-            self.head=None
-        else:
-            current=self.head
-            while current.next.next:
-                current=current.next
-            current.next=None
-    def dlete_position(self,position):
-        if position==0:
-            self.head=self.head.next
-        else:
-            current=self.head
-            for i in range(position-1):
-                current=current.next
-            current.next=current.next.next                                              
     def display(self):
         current=self.head
         while current:
             print(current.data)
             current=current.next
 l=Linkedlist()
-l.insertbeginning(10)                            
-l.insertbeginning(20)                            
-l.insertbeginning(30)                            
-l.insertbeginning(40)
-l.insertend(50)
-l.insertend(60)
-l.insertend(70)
-l.insertend(80)
-l.insert_position(100,3)
-l.delete_first()
-l.delete_end()
-l.dlete_position(1)
-l.display()                           
+l.insert_first(10)                       
+l.insert_first(20)                       
+l.insert_first(30)                       
+l.insert_first(40)        
+l.display()               
