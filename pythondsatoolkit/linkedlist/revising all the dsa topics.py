@@ -140,6 +140,18 @@ class Linkedlist:
             newnode.next=self.head
             self.head.prev=newnode
             self.head=newnode
+    def insert_end(self,data):
+        newnode=Node(data)
+        if self.head is None:
+            self.head=newnode
+        else:
+            current=self.head
+            while current.next:
+                current=current.next
+            newnode.prev=current
+            current.next=newnode    
+
+
     def display(self):
         current=self.head
         while current:
@@ -149,5 +161,9 @@ l=Linkedlist()
 l.insert_first(10)                       
 l.insert_first(20)                       
 l.insert_first(30)                       
-l.insert_first(40)        
+l.insert_first(40)
+l.insert_end(50)
+l.insert_end(60)
+l.insert_end(70)
+l.insert_end(80)        
 l.display()               
