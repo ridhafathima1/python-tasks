@@ -1084,3 +1084,24 @@
 #         high=mid-1
 # else:
 #     print("the element is not found")        
+
+class Stack:
+    def __init__(self):
+        self.stack=[]
+    def push(self,value):
+        self.stack.append(value)
+    def pop(self):
+        self.stack.pop()
+    def peek(self):
+        print("top element is:",self.stack[-1])
+    def is_empty(self):
+        return len(self.stack)==0
+    def display(self):
+        print(self.stack)
+s=Stack()
+s.push(10)
+s.push(20)
+s.push(30)
+s.pop()
+s.peek()
+s.display()               
