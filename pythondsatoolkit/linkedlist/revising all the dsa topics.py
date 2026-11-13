@@ -73,7 +73,17 @@ class Linkedlist:
             current=self.head
             while current.next:
                 current=current.next
-            current.next=newnode        
+            current.next=newnode 
+    def insert_position(self,data,position):
+        newnode=Node(data)
+        if position==0:
+            self.head=newnode
+        else:
+            current=self.head
+            for i in range(position-1):
+                current=current.next
+            newnode.next=current.next
+            current.next=newnode                   
     def display(self):
         current=self.head
         while current:
@@ -88,4 +98,5 @@ l.insertend(50)
 l.insertend(60)
 l.insertend(70)
 l.insertend(80)
+l.insert_position(100,3)
 l.display()                           
