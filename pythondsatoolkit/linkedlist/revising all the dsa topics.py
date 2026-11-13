@@ -16,3 +16,13 @@
 # num.pop()    
 # print(num)    
 
+#example of reversing manually in anormal list
+# num=[10,20,30,40,50,60]
+# start=0
+# end=len(num)-1
+
+# while start<end:
+#     num[start],num[end]=num[end],num[start]
+#     start+=1
+#     end-=1
+# print(num)
