@@ -45,3 +45,11 @@
 # print(deep)
 # print(num)
 
+#example of shallowcopy
+# import copy
+# num=[[10,20],[30,40]]
+# shallow=copy.copy(num)
+# shallow[0][1]=200
+# print(shallow)
+# print(num)
+
