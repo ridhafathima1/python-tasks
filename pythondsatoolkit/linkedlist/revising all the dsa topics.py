@@ -83,7 +83,9 @@ class Linkedlist:
             for i in range(position-1):
                 current=current.next
             newnode.next=current.next
-            current.next=newnode                   
+            current.next=newnode  
+    def delete_first(self):
+        self.head=self.head.next                         
     def display(self):
         current=self.head
         while current:
@@ -99,4 +101,5 @@ l.insertend(60)
 l.insertend(70)
 l.insertend(80)
 l.insert_position(100,3)
+l.delete_first()
 l.display()                           
