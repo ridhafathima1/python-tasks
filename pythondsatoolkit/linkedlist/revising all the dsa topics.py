@@ -26,3 +26,13 @@
 #     start+=1
 #     end-=1
 # print(num)
+
+#example of searching manually in a normal list
+# num=[10,20,30,40,50,60]
+# target=500
+# for i in range(len(num)):
+#     if num[i]==target:
+#         print("the element is found at index:",i)
+#         break
+# else:
+#     print("the element is not found")
