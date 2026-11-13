@@ -53,3 +53,26 @@
 # print(shallow)
 # print(num)
 
+#singly linked list insertion at the beginning
+class Node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+class Linkedlist:
+    def __init__(self):
+        self.head=None
+    def insertbeginning(self,data):
+        newnode=Node(data)
+        newnode.next=self.head
+        self.head=newnode
+    def display(self):
+        current=self.head
+        while current:
+            print(current.data)
+            current=current.next
+l=Linkedlist()
+l.insertbeginning(10)                            
+l.insertbeginning(20)                            
+l.insertbeginning(30)                            
+l.insertbeginning(40)
+l.display()                           
