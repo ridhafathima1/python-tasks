@@ -169,7 +169,14 @@ class Linkedlist:
         current=self.head
         while current.next:
             current=current.next
-        current.prev.next=None        
+        current.prev.next=None 
+    def delete_position(self,position):
+        current=self.head
+        for i in range(position-1):
+            current=current.next
+        current.next=current.next.next
+        if current.next:
+            current.next.prev=current    
     def display(self):
         current=self.head
         while current:
@@ -187,4 +194,5 @@ l.insert_end(80)
 l.insert_position(100,2)
 l.deletebegin() 
 l.deleteend()  
+l.delete_position(3)
 l.display()               
