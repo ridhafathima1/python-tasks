@@ -212,3 +212,10 @@
 #     return fibonnacci(n-1)+fibonnacci(n-2)
 # for i in range(7):
 #     print(fibonnacci(i),end=" ") 
+
+#example of reversing using recursion
+# def reverse(n):
+#     if len(n)==0:
+#         return n
+#     return reverse(n[1:])+n[0]
+# print(reverse("my name is ridha fathima"))
