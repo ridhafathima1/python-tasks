@@ -219,3 +219,13 @@
 #         return n
 #     return reverse(n[1:])+n[0]
 # print(reverse("my name is ridha fathima"))
+
+#example of liner search
+# num=[1032,56,32,76,87]
+# target=76
+# for i in range(len(num)):
+#     if num[i]==target:
+#         print("the element id found at index:",i)
+#         break
+# else:
+#     print("the element is not found")
