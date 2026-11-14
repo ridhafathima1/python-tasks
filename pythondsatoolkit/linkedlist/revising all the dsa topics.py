@@ -520,3 +520,11 @@
 #         high=mid-1
 # else:
 #     print("the element is not found")
+
+# num=[24,56,75,24,75,87,90]
+# n=len(num)
+# for i in range(n):
+#     for j in range(n-i-1):
+#         if num[j]>num[j+1]:
+#             num[j],num[j+1]=num[j+1],num[j]
+# print(num)            
