@@ -486,3 +486,21 @@
 #         return n
 #     return reverse(n[1:])+n[0]
 # print(reverse("ridha"))
+
+# num=[10,20,20,20,30,40,40,50,10]
+# frequency={}
+# for i in num:
+#     if i in frequency:
+#         frequency[i]+=1
+#     else:
+#         frequency[i]=1
+# print(frequency)        
+
+# num=[45,65,76,32,34,76]
+# target=320
+# for i in range(len(num)):
+#     if num[i]==target:
+#         print("the element is found at index:",i)
+#         break
+# else:
+#     print("the element is not found")  
