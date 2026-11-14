@@ -760,3 +760,10 @@
 # num[0][0]=100
 # print(num)
 # print(deep)
+
+# import copy
+# num=[[10,20],[30,40]]
+# shallow=copy.copy(num)
+# shallow[0][0]=100
+# print(num)
+# print(shallow)
