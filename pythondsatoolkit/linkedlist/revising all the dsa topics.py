@@ -538,13 +538,32 @@
 #             min_index=j
 #     num[i],num[min_index]=num[min_index],num[i]
 # print(num)      
-num=[14,32,35,65,6,7,87,9]
-n=len(num)
-for i in range(1,n):
-    key=num[i]
-    j=i-1
-    while j>=0 and num[j]>key:
-        num[j+1]=num[j]
-        j-=1
-    num[j+1]=key
-print(num)            
+# num=[14,32,35,65,6,7,87,9]
+# n=len(num)
+# for i in range(1,n):
+#     key=num[i]
+#     j=i-1
+#     while j>=0 and num[j]>key:
+#         num[j+1]=num[j]
+#         j-=1
+#     num[j+1]=key
+# print(num)            
+
+# class Stack:
+#     def __init__(self):
+#         self.stack=[]
+#     def push(self,value):
+#         self.stack.append(value)
+#     def pop(self):
+#         self.stack.pop()
+#     def peek(self):
+#         print("the top element is",self.stack[-1])
+#     def display(self):
+#         print(self.stack)
+# s=Stack()
+# s.push(10)
+# s.push(20)
+# s.push(30)
+# s.pop()
+# s.peek()
+# s.display()
