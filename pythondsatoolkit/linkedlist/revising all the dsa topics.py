@@ -738,3 +738,10 @@
 #     num[i]=num[i-1]
 # num[position]=value
 # print(num)
+
+# num=[12,3,4,5,7]
+# position=3
+# for i in range(position,len(num)-1):
+#     num[i]=num[i+1]
+# num.pop()
+# print(num)
