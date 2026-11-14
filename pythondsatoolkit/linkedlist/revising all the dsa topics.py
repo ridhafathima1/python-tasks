@@ -754,3 +754,9 @@
 #     start+=1
 #     end-=1
 # print(num)    
+# import copy
+# num=[[10,20],[30,40]]
+# deep=copy.deepcopy(num)
+# num[0][0]=100
+# print(num)
+# print(deep)
