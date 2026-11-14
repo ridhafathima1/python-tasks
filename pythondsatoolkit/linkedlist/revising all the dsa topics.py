@@ -504,3 +504,19 @@
 #         break
 # else:
 #     print("the element is not found")  
+
+# num=[10,20,30,40,50]
+# target=300
+# low=0
+# high=len(num)-1
+# while low<=high:
+#     mid=(low+high)//2
+#     if num[mid]==target:
+#         print("the element is found at index",mid)
+#         break
+#     elif num[mid]<target:
+#         low=mid+1
+#     else:
+#         high=mid-1
+# else:
+#     print("the element is not found")
