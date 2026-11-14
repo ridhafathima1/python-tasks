@@ -745,3 +745,12 @@
 #     num[i]=num[i+1]
 # num.pop()
 # print(num)
+
+# num=[12,54,6,7,8,4,5]
+# start=0
+# end=len(num)-1
+# while start<end:
+#     num[start],num[end]=num[end],num[start]
+#     start+=1
+#     end-=1
+# print(num)    
