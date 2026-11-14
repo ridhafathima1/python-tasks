@@ -480,3 +480,9 @@
 #     return fibonacci(n-1)+fibonacci(n-2)
 # for i in range(7):
 #     print(fibonacci(i),end=" ")
+
+# def reverse(n):
+#     if len(n)==0:
+#         return n
+#     return reverse(n[1:])+n[0]
+# print(reverse("ridha"))
