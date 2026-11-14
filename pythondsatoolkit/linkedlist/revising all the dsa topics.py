@@ -440,30 +440,36 @@
 # l.display()
 
 
-class Node:
-    def __init__(self,data):
-        self.data=data
-        self.next=None
-class Linkedlist:
-    def __init__(self):
-        self.head=None
-    def convert(self,numbers):
-        for i in numbers:
-            newnode=Node(i)
-            if self.head is None:
-                self.head=newnode
-            else:
-                current=self.head
-                while current.next:
-                    current=current.next
-                current.next=newnode
-    def display(self):
-        current=self.head
-        while current:
-            print(current.data,end="->")
-            current=current.next          
-numbers=[10,20,30,40,50]                   
-l=Linkedlist()
-l.convert(numbers)
-l.display()
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def convert(self,numbers):
+#         for i in numbers:
+#             newnode=Node(i)
+#             if self.head is None:
+#                 self.head=newnode
+#             else:
+#                 current=self.head
+#                 while current.next:
+#                     current=current.next
+#                 current.next=newnode
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data,end="->")
+#             current=current.next          
+# numbers=[10,20,30,40,50]                   
+# l=Linkedlist()
+# l.convert(numbers)
+# l.display()
     
+
+# def factorial(n):
+#     if n==0 or n==1:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(5))
