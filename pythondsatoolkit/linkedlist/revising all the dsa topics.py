@@ -280,4 +280,27 @@
 #         num[j+1]=num[j]
 #         j-=1
 #     num[j+1]=key
-# print(num)        
+# print(num)   
+
+#example of stack operations 
+# class Stack:
+#     def __init__(self):
+#         self.stack=[]
+#     def push(self,data):
+#         self.stack.append(data)
+#     def pop(self):
+#         self.stack.pop()
+#     def peek(self):
+#         print("the top element is",self.stack[-1])
+#     def display(self):
+#         print(self.stack)
+# s=Stack()
+# s.push(10)
+# s.push(20)
+# s.push(30)
+# s.push(40)
+# s.pop()
+# s.peek()
+# s.display()
+
+    
