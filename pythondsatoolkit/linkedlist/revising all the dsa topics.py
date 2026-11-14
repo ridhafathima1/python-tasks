@@ -538,3 +538,13 @@
 #             min_index=j
 #     num[i],num[min_index]=num[min_index],num[i]
 # print(num)      
+num=[14,32,35,65,6,7,87,9]
+n=len(num)
+for i in range(1,n):
+    key=num[i]
+    j=i-1
+    while j>=0 and num[j]>key:
+        num[j+1]=num[j]
+        j-=1
+    num[j+1]=key
+print(num)            
