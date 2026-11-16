@@ -931,10 +931,13 @@
 # num=[12,44,3,5,4,3,2,4,5,4]
 # result=insertelement(num,2,100)
 # print(result)
-                
 
-
-                 
+# def deleteelement(num,position):
+#     num.pop(position)
+#     return num
+# num=[12,54,65,76,78,90]
+# result=deleteelement(num,3)
+# print(result)  
 
 
                     
