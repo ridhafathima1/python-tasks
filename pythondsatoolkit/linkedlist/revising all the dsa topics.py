@@ -908,7 +908,23 @@
 # arr=l.display()
 # print(arr)                                
 
-     
+# from collections import deque
+# d=deque([10,20,30,40,50],maxlen=10)
+# print("original deque:",d)
+# d.append(10)
+# print("after append:",d)
+# d.appendleft(40)
+# print("after appendleft:",d)
+# d.pop()
+# print("after pop",d)
+# d.popleft()
+# print("afte popleft:",d)
+# print(d[0])
+# print(d[1])
+# print(d[2])
+# print(d[-1])
+# print("maximum length:",d.maxlen)
+
                 
 
 
