@@ -767,3 +767,119 @@
 # shallow[0][0]=100
 # print(num)
 # print(shallow)
+
+# num=[12,54,4,5,67,6]
+# n=len(num)
+# for i in range(n):
+#     for j in range(n-i-1):
+#         if num[j]>num[j+1]:
+#             num[j],num[j+1]=num[j+1],num[j]
+# print(num)
+
+# num=[12,32,3,4,5,56]
+# n=len(num)
+# for i in range(1,n):
+#     key=num[i]
+#     j=i-1
+#     while j>=0 and num[j]>key:
+#         num[j+1]=num[j]
+#         j-=1
+#     num[j+1]=key
+# print(num)    
+
+# num=[12,43,34,54,5,6.7,8]
+# n=len(num)
+# for i in range(n):
+#     min=i
+#     for j in range(i+1,n):
+#         if num[j]<num[min]:
+#             min=j
+#     num[i],num[min]=num[min],num[i]
+# print(num)   
+
+# num=[12,3,4,56,6,7]
+# position=1
+# value=100
+# num.append(0)
+# for i in range(len(num)-1,position,-1):
+#     num[i]=num[i-1]
+# num[position]=value
+# print(num)    
+
+# num=[120,43,5,4,6,7]
+# position=2
+# for i in range(position,len(num)-1):
+#     num[i]=num[i+1]
+# num.pop()
+# print(num)    
+# num=[1234,445,2345,3456]
+# start=0
+# end=len(num)-1
+# while start<end:
+#     num[start],num[end]=num[end],num[start]
+#     start+=1
+#     end-=1
+# print(num)
+
+# num=[12,443,56,7,7,5,7,4,2356788,8]
+# n=len(num)
+# for i in range(n):
+#     for j in range(n-i-1):
+#         if num[j]>num[j+1]:
+#             num[j],num[j+1]=num[j+1],num[j]
+# print(num)            
+
+# num=[23,54,56,7,3,2,5,2]
+# n=len(num)
+# for i in range(n):
+#     min=i
+#     for j in range(i+1,n):
+#         if num[j]<num[min]:
+#             min=j
+#     num[i],num[min]=num[min],num[i]
+# print(num)            
+
+# num=[12,4,5,4,5,3,3,]
+# n=len(num)
+# for i in range(1,n):
+#     key=num[i]
+#     j=i-1
+#     while j>=0 and num[j]>key:
+#         num[j+1]=num[j]
+#         j-=1
+#     num[j+1]=key
+# print(num)
+
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def convert(self,number):
+#         for i in number:
+#             newnode=Node(i)
+#             if self.head is None:
+#                 self.head=newnode
+#             else:
+#                 current=self.head
+#                 while current.next:
+#                     current=current.next
+#                 current.next=newnode
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data,end="->")
+#             current=current.next
+#         print("none")    
+# number=[12,34,56,77,89,90]            
+# l=Linkedlist()
+# l.convert(number)
+# l.display()
+
+
+                 
+
+
+                    
