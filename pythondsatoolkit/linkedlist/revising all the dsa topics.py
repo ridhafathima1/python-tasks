@@ -975,3 +975,17 @@
 # result=insert(num)
 # print(result)
 
+# def searching(num):
+#     target=30
+#     for i in range(len(num)):
+#         if num[i]==target:
+#             print("the element is found at index:",i)
+#             break
+#     else:
+#         print("the element is not found")
+#     return num
+# num=[10,20,30,40,50,60]
+# searching(num)
+
+
+
