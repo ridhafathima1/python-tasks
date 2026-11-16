@@ -877,6 +877,39 @@
 # l=Linkedlist()
 # l.convert(number)
 # l.display()
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def convert(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             current.next=newnode
+#     def display(self):
+#         arr=[]
+#         current=self.head
+#         while current:
+#             arr.append(current.data)
+#             current=current.next
+#         return arr
+# l=Linkedlist()
+# l.convert(10)
+# l.convert(20)
+# l.convert(30)
+# l.convert(40)
+# arr=l.display()
+# print(arr)                                
+
+     
+                
 
 
                  
