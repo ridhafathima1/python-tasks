@@ -963,3 +963,15 @@
 # result=largest(num)
 # print(result)
         
+# def insert(num):
+#     position=2
+#     value=25
+#     num.append(0)
+#     for i in range(len(num)-1,position,-1):
+#         num[i]=num[i-1]
+#     num[position]=value
+#     return num
+# num=[10,20,30,40,50]
+# result=insert(num)
+# print(result)
+
