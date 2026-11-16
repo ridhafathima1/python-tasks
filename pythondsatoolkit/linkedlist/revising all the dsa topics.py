@@ -945,3 +945,21 @@
 # word="ridha fathima"
 # result=reverse_string(word)
 # print(result)
+
+# def reverse_num(num):
+#     num.reverse()
+#     return num
+# num=[10,20,50,60]
+# result=reverse_num(num)
+# print(num)
+
+# def largest(num):
+#     largest=num[0]
+#     for i in num:
+#         if i>largest:
+#             largest=i
+#     return largest
+# num=[3445,847,9478,0000,4944]
+# result=largest(num)
+# print(result)
+        
