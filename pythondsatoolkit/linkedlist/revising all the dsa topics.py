@@ -925,6 +925,12 @@
 # print(d[-1])
 # print("maximum length:",d.maxlen)
 
+# def insertelement(num,position,value):
+#     num.insert(position,value)
+#     return num
+# num=[12,44,3,5,4,3,2,4,5,4]
+# result=insertelement(num,2,100)
+# print(result)
                 
 
 
