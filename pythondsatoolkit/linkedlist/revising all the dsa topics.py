@@ -939,5 +939,9 @@
 # result=deleteelement(num,3)
 # print(result)  
 
-
-                    
+# def reverse_string(word):
+#     reversed_text=word[::-1]
+#     return reversed_text
+# word="ridha fathima"
+# result=reverse_string(word)
+# print(result)
