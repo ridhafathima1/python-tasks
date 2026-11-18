@@ -162,14 +162,26 @@
 # else:
 #     print("the element is not found")
 
-#example of bubble sort
-num=[2039,44,864,844,725,937]
-n=len(num)
-for i in range(n):
-    for j in range(n-i-1):
-        if num[j]>num[j+1]:
-            num[j],num[j+1]=num[j+1],num[j]
-print(num)        
+# #example of bubble sort
+# num=[2039,44,864,844,725,937]
+# n=len(num)
+# for i in range(n):
+#     for j in range(n-i-1):
+#         if num[j]>num[j+1]:
+#             num[j],num[j+1]=num[j+1],num[j]
+# print(num)        
     
+#example of selection sort
+# num=[4049,498,30498,4494]
+# n=len(num)
+# for i in range(n):
+#     min_index=i
+#     for j in range(i+1,n):
+#         if num[j]<num[min_index]:
+#             min_index=j
+#     num[i],num[min_index]=num[min_index],num[i]
+# print(num)
+
+
 
 
