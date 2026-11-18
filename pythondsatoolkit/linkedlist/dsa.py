@@ -121,4 +121,16 @@
 #     print("age exists")
 # del data["course"]
 # print(data)    
-       
+
+#example of hash collision solution using hash function     
+# data={
+#     "name":"ridha",
+#     "age":17,
+#     "course":17
+# }
+# b=hash(17)
+# a=hash(17)
+# if a==b:
+#     print("both are equal")
+# del data["name"]
+# print(data) 
