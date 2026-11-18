@@ -435,3 +435,18 @@
 # num.insert(0,10)
 # print(num)
 
+#example of finding the second largest using function
+# def secondlargest(num):
+#     largest=num[0]
+#     second=num[0]
+#     for i in num:
+#         if i>largest:
+#             second=largest
+#             largest=i
+#         elif i>second and i!=largest:
+#             second=i
+#     return second
+# num=[2884,98755,9587,948,948,973]
+# result=secondlargest(num)
+# print(result)
+        
