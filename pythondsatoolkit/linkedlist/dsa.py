@@ -855,3 +855,18 @@
 # num=[10,20,30,10,20,30]
 # result=frequent(num)
 # print(result)         
+
+#example of hash function
+# data={
+#     "name":"ridha",
+#     "age":17,
+#     "course":"bca"
+# }
+# print(data["name"])
+# del data["age"]
+
+# if "age" in data:
+#     print("age exists")
+# else:
+#     print("age nt exists")
+# print(data)
