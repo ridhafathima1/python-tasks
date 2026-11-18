@@ -514,3 +514,13 @@
 #     return num
 # num=[3884,49483,94874]
 # searching(num)
+
+#example of searching an element using function
+# num=[39734,874484,94774,8474]
+# target=8474
+# for i in range(len(num)):
+#     if num[i]==target:
+#         print("the element is found at index:",i)
+#         break
+# else:
+#     print("the element is not found")
