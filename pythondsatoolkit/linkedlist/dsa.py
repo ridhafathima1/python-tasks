@@ -182,6 +182,16 @@
 #     num[i],num[min_index]=num[min_index],num[i]
 # print(num)
 
-
+#example of insertion sort
+# num=[308,5968,59686,5868]
+# n=len(num)
+# for i in range(n):
+#     key=num[i]
+#     j=i-1
+#     while j>=0 and num[j]>key:
+#         num[j+1]=num[j]
+#         j-=1
+#     num[j+1]=key
+# print(num)    
 
 
