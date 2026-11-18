@@ -406,6 +406,7 @@
 # result=l.display()
 # print(result)                        
 
+#find largest number using function
 # def maximum(num):
 #     largest=num[0]
 #     for i in range(len(num)):
@@ -414,4 +415,15 @@
 #     return largest
 # num=[64,4485,495,9585,949]
 # result=maximum(num)
-# print(result)        
+# print(result)    
+
+#find smallest number using function
+# def minimum(num):
+#     smallest=num[0]
+#     for i in range(len(num)):
+#         if num[i]<smallest:
+#             smallest=num[i]
+#     return smallest
+# num=[3647,4847,34948,3948]
+# result=minimum(num)
+# print(result)            
