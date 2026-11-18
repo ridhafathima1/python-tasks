@@ -146,22 +146,30 @@
 #     print("the element is not found")    
 
 #example of binary search
-num=[10,20,30,40,50,60,70,80,90]
-target=40
-low=0
-high=len(num)-1
-while low<=high:
-    mid=(low+high)//2
-    if num[mid]==target:
-        print("the element is found at index:",mid)
-        break
-    elif num[mid]<target:
-        low=mid+1
-    else:
-        high=mid-1
-else:
-    print("the element is not found")
-    
+# num=[10,20,30,40,50,60,70,80,90]
+# target=40
+# low=0
+# high=len(num)-1
+# while low<=high:
+#     mid=(low+high)//2
+#     if num[mid]==target:
+#         print("the element is found at index:",mid)
+#         break
+#     elif num[mid]<target:
+#         low=mid+1
+#     else:
+#         high=mid-1
+# else:
+#     print("the element is not found")
+
+#example of bubble sort
+num=[2039,44,864,844,725,937]
+n=len(num)
+for i in range(n):
+    for j in range(n-i-1):
+        if num[j]>num[j+1]:
+            num[j],num[j+1]=num[j+1],num[j]
+print(num)        
     
 
 
