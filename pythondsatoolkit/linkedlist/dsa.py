@@ -52,3 +52,35 @@
 # num=[10,10,20,30,40,40,50,50,60,60]
 # result=frequency(num)
 # print(result)
+
+#example of find duplicate values from a list using function
+# def duplicate(num):
+#     unique=[]
+#     for i in num:
+#         if i not in unique:
+#             unique.append(i)
+#     return unique
+# num=[10,20,20,30,30,40,50]
+# result=duplicate(num)
+# print(result)
+
+#example of stack operations
+# class Stack:
+#     def __init__(self):
+#         self.stack=[]
+#     def push(self,data):
+#         self.stack.append(data) 
+#     def pop(self):
+#         print("pop element:",self.stack.pop())
+#     def peek(self):
+#         print("top element:",self.stack[-1])   
+#     def display(self):
+#         print(self.stack)
+# s=Stack()
+# s.push(10)
+# s.push(20)
+# s.push(30)
+# s.pop()
+# s.peek()    
+# s.display()    
+
