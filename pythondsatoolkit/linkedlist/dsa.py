@@ -244,7 +244,17 @@ class Linkedlist:
         if self.head is None:
             return
         if self.head.next is not None:
-            self.head=self.head.next                  
+            self.head=self.head.next
+    def delete_end(self):
+        current=self.head
+        while current.next.next:
+            current=current.next
+        current.next=None  
+    def delete_position(self,position):
+        current=self.head
+        for i in range(position-1):
+            current=current.next
+        current.next=current.next.next                                     
     def display(self):
         current=self.head
         while current:
@@ -262,4 +272,6 @@ l.insert_end(80)
 l.insert_end(90)
 l.insert_position(25,3)
 l.delete_first()
+l.delete_end()
+l.delete_position(4)
 l.display()                           
