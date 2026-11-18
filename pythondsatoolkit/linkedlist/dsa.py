@@ -482,3 +482,21 @@
 #     num[i]=num[i-1]
 # num[position]=value
 # print(num)    
+
+#exxample of deleting an element using function
+# def deletion(num):
+#     position=3
+#     for i in range(position,len(num)-1):
+#         num[i]=num[i+1]
+#     num.pop()
+# num=[384,49858,5986,66]
+# result=deletion(num)
+# print(result)
+
+#example of deletion manually without using function
+# num=[2883,984,484]
+# position=1
+# for i in range(position,len(num)-1):
+#     num[i]=num[i+1]
+# num.pop()
+# print(num)
