@@ -472,3 +472,13 @@
 # num=[6464,4847,4874,47]
 # result=inserting(num,0,1000)
 # print(result)    
+
+#example of inserting manually withput using function
+# num=[384,585,58575,5857]
+# position=0
+# value=1000
+# num.append(0)
+# for i in range(len(num)-1,position,-1):
+#     num[i]=num[i-1]
+# num[position]=value
+# print(num)    
