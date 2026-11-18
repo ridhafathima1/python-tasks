@@ -461,7 +461,14 @@
 # print(result)
 
 #example of reversing using slicing method
-num=[3884,4948,4948449,8474]
-num=num[::-1]
-print(num)
-        
+# num=[3884,4948,4948449,8474]
+# num=num[::-1]
+# print(num)
+
+#example of insert using function   
+# def inserting(num,position,value):
+#     num.insert(position,value)
+#     return num
+# num=[6464,4847,4874,47]
+# result=inserting(num,0,1000)
+# print(result)    
