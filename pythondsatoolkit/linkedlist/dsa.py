@@ -102,4 +102,23 @@
 # q.enqueue(30)
 # q.dequeue()
 # q.peek()
-# q.display()                        
+# q.display() 
+
+# from collections import deque
+# d=deque([10,20,30])
+# d.popleft()
+# d.append(40)
+# print(d)
+
+#example of hasing 
+# data={
+#     "name":"ridha",
+#     "age":17,
+#     "course":"bca"
+# }
+# print(data["name"])
+# if "age" in data:
+#     print("age exists")
+# del data["course"]
+# print(data)    
+       
