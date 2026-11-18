@@ -842,3 +842,16 @@
 #     else:
 #         frequency[i]=1
 # print(frequency)
+
+#example of frequency using function
+# def frequent(num):
+#     frequency={}
+#     for i in num:
+#         if i in frequency:
+#             frequency[i]+=1
+#         else:
+#             frequency[i]=1
+#     return frequency
+# num=[10,20,30,10,20,30]
+# result=frequent(num)
+# print(result)         
