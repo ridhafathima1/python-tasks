@@ -832,3 +832,13 @@
 #         j-=1
 #     num[j+1]=key    
 # print(num)        
+
+#example of counting frequency
+# num=[10,20,20,30,30,40,50,50]
+# frequency={}
+# for i in num:
+#     if i in frequency:
+#         frequency[i]+=1
+#     else:
+#         frequency[i]=1
+# print(frequency)
