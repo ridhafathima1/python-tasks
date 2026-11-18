@@ -449,4 +449,15 @@
 # num=[2884,98755,9587,948,948,973]
 # result=secondlargest(num)
 # print(result)
+
+#example of reversing using function
+def reverse(num):
+    reverse=[]
+    for i in range(len(num)-1,-1,-1):
+        reverse.append(num[i])
+    return reverse
+num=[23,5,6,6,7,7]
+result=reverse(num)
+print(result)
+
         
