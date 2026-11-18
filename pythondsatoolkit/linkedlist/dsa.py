@@ -427,3 +427,11 @@
 # num=[3647,4847,34948,3948]
 # result=minimum(num)
 # print(result)            
+
+# num=[192,393,3939,39]
+# num.append(0)
+# print(num)
+# num=[93,49,84,746,746,726]
+# num.insert(0,10)
+# print(num)
+
