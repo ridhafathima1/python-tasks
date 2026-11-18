@@ -232,13 +232,19 @@ class Linkedlist:
     def insert_position(self,data,position):
         newnode=Node(data)
         if position==0:
+            newnode.next=self.head
             self.head-newnode
         else:
             current=self.head
             for i in range(position-1):
                 current=current.next
             newnode.next=current.next
-            current.next=newnode            
+            current.next=newnode  
+    def delete_first(self):
+        if self.head is None:
+            return
+        if self.head.next is not None:
+            self.head=self.head.next                  
     def display(self):
         current=self.head
         while current:
@@ -255,4 +261,5 @@ l.insert_end(70)
 l.insert_end(80)
 l.insert_end(90)
 l.insert_position(25,3)
-l.display()                            
+l.delete_first()
+l.display()                           
