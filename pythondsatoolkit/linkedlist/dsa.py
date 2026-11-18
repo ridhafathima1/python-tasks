@@ -524,3 +524,13 @@
 #         break
 # else:
 #     print("the element is not found")
+
+#example of reversing a list manually
+num=[8485,5886,5885]
+start=0
+end=len(num)-1
+while start<end:
+    num[start],num[end]=num[end],num[start]
+    start+=1
+    end-=1
+print(num)
