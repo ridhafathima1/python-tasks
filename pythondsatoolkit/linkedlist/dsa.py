@@ -489,6 +489,7 @@
 #     for i in range(position,len(num)-1):
 #         num[i]=num[i+1]
 #     num.pop()
+#      return num
 # num=[384,49858,5986,66]
 # result=deletion(num)
 # print(result)
@@ -500,3 +501,4 @@
 #     num[i]=num[i+1]
 # num.pop()
 # print(num)
+
