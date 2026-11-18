@@ -377,3 +377,41 @@
 # l=Linkedlist()
 # l.convert(number)                                        
 # l.display()
+
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def display(self):
+#         current=self.head
+#         number=[]
+#         while current:
+#             number.append(current.data)
+#             current=current.next
+#         return number     
+# l=Linkedlist()
+# node1=Node(10)                        
+# node2=Node(20)                        
+# node3=Node(30)                        
+# node4=Node(40)                        
+# node5=Node(50)
+# l.head=node1
+# node1.next=node2
+# node2.next=node3
+# node3.next=node4
+# node4.next=node5
+# result=l.display()
+# print(result)                        
+
+# def maximum(num):
+#     largest=num[0]
+#     for i in range(len(num)):
+#         if num[i]>largest:
+#             largest=num[i]
+#     return largest
+# num=[64,4485,495,9585,949]
+# result=maximum(num)
+# print(result)        
