@@ -133,4 +133,14 @@
 # if a==b:
 #     print("both are equal")
 # del data["name"]
-# print(data) 
+# print(data)
+
+#example of linear search
+# num=[10,20,30,40,50,43,4,2,4,]
+# target=2
+# for i in range(len(num)):
+#     if num[i]==target:
+#         print("the element is foudn at index:",i)
+#         break
+# else:
+#     print("the element is not found")    
