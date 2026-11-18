@@ -451,13 +451,17 @@
 # print(result)
 
 #example of reversing using function
-def reverse(num):
-    reverse=[]
-    for i in range(len(num)-1,-1,-1):
-        reverse.append(num[i])
-    return reverse
-num=[23,5,6,6,7,7]
-result=reverse(num)
-print(result)
+# def reverse(num):
+#     reverse=[]
+#     for i in range(len(num)-1,-1,-1):
+#         reverse.append(num[i])
+#     return reverse
+# num=[23,5,6,6,7,7]
+# result=reverse(num)
+# print(result)
 
+#example of reversing using slicing method
+num=[3884,4948,4948449,8474]
+num=num[::-1]
+print(num)
         
