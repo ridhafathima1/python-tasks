@@ -751,3 +751,15 @@
 # s.pop()
 # s.peek()
 # s.display()               
+
+#collections.deque operations
+# from collections import deque
+# d=deque([10,20,30,40,50])
+# d.append(60)
+# d.appendleft(5)
+# d.pop()
+# d.popleft()
+# print(d[0])
+# print(d.maxlen)
+# print(d)
+
