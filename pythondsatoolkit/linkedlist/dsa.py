@@ -870,3 +870,15 @@
 # else:
 #     print("age nt exists")
 # print(data)
+
+#example of hashcollision
+# def hash(key):
+#     return key%10
+# a=200
+# b=35
+# hash1=hash(a)
+# hash2=hash(b)
+# if hash1==hash2:
+#     print("hash collision")
+# else:
+#     print("no collision")
