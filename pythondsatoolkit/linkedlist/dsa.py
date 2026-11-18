@@ -502,3 +502,15 @@
 # num.pop()
 # print(num)
 
+#example of searching an element using function
+# def searching(num):
+#     target=3884
+#     for i in range(len(num)):
+#         if num[i]==target:
+#             print("the element is found at index:",i)
+#             break
+#     else:
+#         print("the element is not found")
+#     return num
+# num=[3884,49483,94874]
+# searching(num)
