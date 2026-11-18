@@ -729,3 +729,25 @@
 # n1.next=n2
 # n2.next=n3
 # print(l.convert())         
+
+#stack operations
+# class Stack:
+#     def __init__(self):
+#         self.stack=[]
+#     def push(self,data):
+#         self.stack.append(data)
+#     def pop(self):
+#         self.stack.pop()
+#     def peek(self):
+#         print("the top element is:",self.stack[-1])
+#     def display(self):
+#         print(self.stack)
+# s=Stack()
+# s.push(10)               
+# s.push(20)               
+# s.push(30)               
+# s.push(40)               
+# s.push(50)
+# s.pop()
+# s.peek()
+# s.display()               
