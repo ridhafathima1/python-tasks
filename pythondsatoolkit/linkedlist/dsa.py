@@ -1069,3 +1069,7 @@
 # num=[12,4,2,4,5]
 # result=largest(num)
 # print(result)        
+
+#example of pythonic optimisation
+# num=[29878,4984,944]
+# print(max(num))
