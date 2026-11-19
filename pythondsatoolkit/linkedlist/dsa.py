@@ -956,3 +956,13 @@
 # num=[10,20,30,40,50,60,60]
 # result=duplicate(num)
 # print(result)        
+
+#example of two sum in array
+# nums=[7,2,5,6,7]
+# target=9
+# for i in range(len(nums)):
+#     for j in range(i+1,len(nums)):
+#         if nums[i]+nums[j]==target:
+#             print([i,j])
+            
+
