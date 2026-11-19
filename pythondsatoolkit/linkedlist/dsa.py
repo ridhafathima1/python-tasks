@@ -1481,3 +1481,8 @@
 #         j-=1
 #     num[j+1]=key
 # print(num)    
+
+#example of .sort method
+# num=[65,7,8,7,5]
+# num.sort()
+# print(num)
