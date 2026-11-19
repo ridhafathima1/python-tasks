@@ -1517,3 +1517,13 @@
 #     print("hash collision")
 # else:
 #     print("no collision")
+
+#example of frequency counting
+# num=[10,10,20,30,40,50,50,50]
+# frequency={}
+# for i in num:
+#     if i in frequency:
+#         frequency[i]+=1
+#     else:
+#         frequency[i]=1
+# print(frequency)        
