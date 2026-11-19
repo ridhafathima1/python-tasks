@@ -1058,3 +1058,14 @@
 # l.insert_end(40)                                            
 # l.reverse()
 # l.display()
+
+#example of algorithmic optimisation
+# def largest(num):
+#     largest=num[0]
+#     for i in num:
+#         if i>largest:
+#             largest=i
+#     return largest
+# num=[12,4,2,4,5]
+# result=largest(num)
+# print(result)        
