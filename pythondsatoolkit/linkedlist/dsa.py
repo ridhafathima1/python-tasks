@@ -945,3 +945,14 @@
 #         return n
 #     return reversing(n[1:])+n[0]
 # print(reversing("ridha fathima"))
+
+#example of removing duplicates using function
+# def duplicate(num):
+#     unique=[]
+#     for i in num:
+#         if i  not in unique:
+#             unique.append(i)
+#     return unique
+# num=[10,20,30,40,50,60,60]
+# result=duplicate(num)
+# print(result)        
