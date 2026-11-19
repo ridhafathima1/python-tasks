@@ -1090,3 +1090,20 @@
 #     num[i]=num[i-1]
 # num[position]=value
 # print(num)
+
+# example of deleting an element
+# def deleting(num,value):
+#     if value in num:
+#         num.remove(value)
+#     else:
+#         print("element is not found")
+# num=[10,20,30,40]
+# deleting(num,20)
+# print(num)         
+
+# num=[102,394,494,49]
+# position=3
+# for i in range(position,len(num)-1):
+#     num[i]=num[i+1]
+# num.pop()
+# print(num)
