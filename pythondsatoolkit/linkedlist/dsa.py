@@ -1486,3 +1486,9 @@
 # num=[65,7,8,7,5]
 # num.sort()
 # print(num)
+
+#example of sorted method
+# num=[39894,4939,3834]
+# nums=sorted(num)
+# print(nums)
+# print(num)
