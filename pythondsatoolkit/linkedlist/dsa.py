@@ -1121,3 +1121,12 @@
 # num=[2094,404,95]
 # searching(num) 
 
+#example of reversing a string
+# num=[948,5985,94875,8485]
+# start=0
+# end=len(num)-1
+# while start<end:
+#     num[start],num[end]=num[end],num[start]
+#     start+=1
+#     end-=1
+# print(num)
