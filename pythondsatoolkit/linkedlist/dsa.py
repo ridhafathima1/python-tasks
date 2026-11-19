@@ -1107,3 +1107,17 @@
 #     num[i]=num[i+1]
 # num.pop()
 # print(num)
+
+#example of searching an element in a list
+# def searching(num):
+#     target=95
+#     for i in range(len(num)):
+#        if num[i]==target:
+#            print("the element is found",i)
+#            break
+#     else:
+#         print("the element is not found")
+#     return num
+# num=[2094,404,95]
+# searching(num) 
+
