@@ -938,3 +938,10 @@
 #         return n
 #     return fibanocci(n-1)+fibanocci(n-2)
 # print(fibanocci(7))
+
+#example of reverse  using recursion
+# def reversing(n):
+#     if len(n)==0:
+#         return n
+#     return reversing(n[1:])+n[0]
+# print(reversing("ridha fathima"))
