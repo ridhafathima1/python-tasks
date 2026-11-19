@@ -931,3 +931,10 @@
 #         return 1
 #     return n*factorial(n-1)
 # print(factorial(5)) 
+
+#example of dfibanocci using recursion
+# def fibanocci(n):
+#     if n<=1:
+#         return n
+#     return fibanocci(n-1)+fibanocci(n-2)
+# print(fibanocci(7))
