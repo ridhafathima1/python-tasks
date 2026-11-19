@@ -1200,3 +1200,74 @@
 # l.delete_position(3)      
 # l.display()             
 
+# #example of doubly linkedlist entire operations
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+#         self.prev=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insert_first(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             newnode.next=self.head
+#             self.head.prev=newnode
+#             self.head=newnode
+#     def insert_end(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             newnode.prev=current
+#             current.next=newnode
+#     def insert_position(self,data,position):
+#         newnode=Node(data)
+#         current=self.head
+#         for i in range(position-1):
+#             current=current.next
+#         newnode.next=current.next
+#         newnode.prev=current
+#         current.next=newnode
+#         current.next.pev=newnode
+#     def delete_first(self):
+#         self.head=self.head.next
+#         self.head.prev=None   
+#     def delete_end(self):
+#         current=self.head
+#         while current.next:
+#             current=current.next
+#         current.prev.next=None
+#         current.next=None  
+#     def delete_position(self,position):
+#         current=self.head
+#         for i in range(position-1):
+#             current=current.next
+#         current.next=current.next.next
+#         if self.head is None:
+#             current.prev.next=current              
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data)
+#             current=current.next
+# l=Linkedlist()
+# l.insert_first(40)
+# l.insert_first(30)
+# l.insert_first(20)
+# l.insert_first(10)
+# l.insert_end(50)
+# l.insert_end(60)
+# l.insert_end(70)
+# l.insert_end(80)
+# l.insert_position(100,3)     
+# l.delete_first()
+# l.delete_end()
+# l.delete_position(3)
+# l.display()       
