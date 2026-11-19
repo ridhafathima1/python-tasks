@@ -1492,3 +1492,15 @@
 # nums=sorted(num)
 # print(nums)
 # print(num)
+
+#example of hash
+# data={
+#         "name":"ridha",
+#         "age":17,
+#         "course":"bca"
+# }
+# print(data["name"])
+# if "age" in data:
+#     print("age exists")
+# del data["course"]
+# print(data)
