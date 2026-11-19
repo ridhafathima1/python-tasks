@@ -1019,4 +1019,42 @@
 # n2.next=n3
 # print(l.convert())
                 
-#reverse
+#reverse linkedlist
+# class Node:
+#     def __init__(self,data):
+#         self.data=data
+#         self.next=None
+# class Linkedlist:
+#     def __init__(self):
+#         self.head=None
+#     def insert_end(self,data):
+#         newnode=Node(data)
+#         if self.head is None:
+#             self.head=newnode
+#         else:
+#             current=self.head
+#             while current.next:
+#                 current=current.next
+#             current.next=newnode
+#     def reverse(self):
+#         current=self.head
+#         previous=None
+#         while current:
+#             nextnode=current.next
+#             current.next=previous
+#             previous=current
+#             current=nextnode
+#         self.head=previous
+#     def display(self):
+#         current=self.head
+#         while current:
+#             print(current.data,end="->")
+#             current=current.next
+#         print("none")    
+# l=Linkedlist()
+# l.insert_end(10)                                            
+# l.insert_end(20)                                            
+# l.insert_end(30)                                            
+# l.insert_end(40)                                            
+# l.reverse()
+# l.display()
