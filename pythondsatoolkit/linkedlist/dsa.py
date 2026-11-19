@@ -1457,3 +1457,15 @@
 #         if num[j]>num[j+1]:
 #             num[j],num[j+1]=num[j+1],num[j]
 # print(num)            
+
+#example of selection sort
+# num=[45,87,32,34,65]
+# n=len(num)
+# for i in range(n):
+#     min_index=i
+#     for j in range(i+1,n):
+#         if num[j]<num[min_index]:
+#             min_index=j
+#             j-=1
+#     num[i],num[min_index]=num[min_index],num[i]
+# print(num)       
