@@ -1466,6 +1466,18 @@
 #     for j in range(i+1,n):
 #         if num[j]<num[min_index]:
 #             min_index=j
-#             j-=1
+#
 #     num[i],num[min_index]=num[min_index],num[i]
 # print(num)       
+
+#example of insertion sort
+# num=[34,32,21,12,3,4]
+# n=len(num)
+# for i in range(n):
+#     key=num[i]
+#     j=i-1
+#     while j>=0 and num[j]>key:
+#         num[j+1]=num[j]
+#         j-=1
+#     num[j+1]=key
+# print(num)    
