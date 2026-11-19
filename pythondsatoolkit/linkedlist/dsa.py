@@ -1421,3 +1421,13 @@
 # stack.popleft()
 # stack.pop()
 # print(stack)
+
+#example of linear search
+# num=[10,87,65,54,52,74]
+# target=54
+# for i in range(len(num)):
+#     if num[i]==target:
+#         print("the element is found at index:",i)
+#         break
+# else:
+#     print("the element is not found")    
