@@ -1408,3 +1408,16 @@
 # q.dequeue()
 # q.peek()
 # q.display()                      
+
+#using collections.deque in stack
+# from collections import deque
+# stack=deque()
+# stack.append(10)
+# stack.append(20)
+# stack.append(30)
+# stack.append(40)
+# print(stack)
+# stack.appendleft(5)
+# stack.popleft()
+# stack.pop()
+# print(stack)
