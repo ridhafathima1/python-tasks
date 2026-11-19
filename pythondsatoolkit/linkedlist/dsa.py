@@ -1073,3 +1073,20 @@
 #example of pythonic optimisation
 # num=[29878,4984,944]
 # print(max(num))
+
+#example of inserting an element
+# def inserting(num,position,value):
+#     num.insert(position,value)
+#     return num
+# num=[10,20,30,40]
+# result=inserting(num,2,25)
+# print(result)
+
+# num=[10,20,30,40,50]
+# position=2
+# value=25
+# num.append(0)
+# for i in range(len(num)-1,position,-1):
+#     num[i]=num[i-1]
+# num[position]=value
+# print(num)
