@@ -1365,3 +1365,25 @@
 # l.insert_end(40)
 # l.reverse()
 # l.display()
+
+#example of stack operation
+# class Stack:
+#     def __init__(self):
+#         self.stack=[]
+#     def push(self,data):
+#         self.stack.append(data)
+#     def pop(self):
+#         self.stack.pop()
+#     def peek(self):
+#         print("top element:",self.stack[-1])
+#     def display(self):
+#         print(self.stack)
+# s=Stack()
+# s.push(10)
+# s.push(20)
+# s.push(30)
+# s.push(40)
+
+# s.peek()
+# s.pop()
+# s.display()
