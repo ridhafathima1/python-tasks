@@ -923,4 +923,11 @@
 # l.insert_end(50)
 # l.display()
 # l.reverse()
-# l.display()            
+# l.display()           
+
+#example of factorial using recursion
+# def factorial(n):
+#     if n==0 or n==1:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(5)) 
