@@ -1448,3 +1448,12 @@
 #         high=mid-1
 # else:
 #     print("the element is not found")         
+
+#example of bubble sort
+# num=[10,20,76,67,89,98]
+# n=len(num)
+# for i in range(n):
+#     for j in range(n-i-1):
+#         if num[j]>num[j+1]:
+#             num[j],num[j+1]=num[j+1],num[j]
+# print(num)            
