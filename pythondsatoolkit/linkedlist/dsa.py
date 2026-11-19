@@ -1387,3 +1387,24 @@
 # s.peek()
 # s.pop()
 # s.display()
+
+#example of queue operations
+# class Queue:
+#     def __init__(self):
+#         self.queue=[]
+#     def enqueue(self,data):
+#         self.queue.append(data)
+#     def dequeue(self):
+#         self.queue.pop(0)
+#     def peek(self):
+#         print("top element:",self.queue[0])
+#     def display(self):
+#         print(self.queue)
+# q=Queue()
+# q.enqueue(10)                      
+# q.enqueue(20)                      
+# q.enqueue(30)                      
+# q.enqueue(40)
+# q.dequeue()
+# q.peek()
+# q.display()                      
