@@ -1504,3 +1504,16 @@
 #     print("age exists")
 # del data["course"]
 # print(data)
+
+
+#example of hash collision
+# def hashing(key):
+#     return key%10
+# a=35
+# b=25
+# hash1=hashing(a)
+# hash2=hashing(b)
+# if hash1==hash2:
+#     print("hash collision")
+# else:
+#     print("no collision")
