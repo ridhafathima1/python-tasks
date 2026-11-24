@@ -1549,8 +1549,9 @@
 #     return reversing(n[1:])+n[0]
 # print(reversing("ridha"))
 
-def reversing(n):
-    if len(n)==0:
-        return n
-    return reversing(n[1:])+n[0]
-print(reversing("ridha"))
+#example of reversing a string
+# def reversing(n):
+#     if len(n)==0:
+#         return n
+#     return reversing(n[1:])+n[0]
+# print(reversing("ridha"))
